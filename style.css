@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    padding:0;
+    margin:0;
+    border-spacing:0;
+    border-collapse:collapse;
+}
+tr, td {
+    border: 3px solid black;
+    
+}
+td {
+    height:100px;
+    width: 100px;
+}
+ 
+.even td:nth-child(odd) {
+    background-color: black;
+}
+.odd td:nth-child(even) {
+    background-color: black;
+}
